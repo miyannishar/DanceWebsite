@@ -17,6 +17,7 @@ var contactSchema = new mongoose.Schema({
     desc: String
   });
 
+// Making Model from Schema
 var Contact = mongoose.model('Contact', contactSchema);
 
 // EXPRESS SPECIFIC STUFF
